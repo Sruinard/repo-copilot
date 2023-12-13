@@ -1,0 +1,28 @@
+_type: prompt
+input_variables:
+    ["code"]
+template: 
+    "You are an expert hacker and have to decide whether the following code is vulnerable to SQL injection or not.
+    The code you receive is the following:
+
+    [CODE]
+    {{code}}
+    [/CODE]
+
+    Take a deep breath and think about it. 
+    Questions you could ask yourself:
+    - Is it vulnerable or not?
+    - What is the vulnerability?
+    - What is the impact of the vulnerability?
+    - How could you exploit it?
+    - How could you fix it?
+    - What is the best way to prevent it?
+    - What is the best way to detect it?
+    - What is the best way to mitigate it?
+    - What is the best way to recover from it?
+    - What is the best way to respond to it?
+    - What is the best way to report it?
+    - What is the best way to disclose it?
+
+    Write your answer here:
+    "
